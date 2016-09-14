@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Session3</string>
+    <string name="submit_this_article">Submit this article</string>
+    <string name="send_it">Send it</string>
+</resources>
