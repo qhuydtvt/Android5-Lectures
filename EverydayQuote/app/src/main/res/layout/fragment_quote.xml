@@ -1,0 +1,59 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="techkids.vn.everydayquote.fragments.QuoteFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black_overlay"
+        tools:context="techkids.vn.everydayquote.activities.QuoteActivity">
+
+        <ImageView
+            android:id="@+id/imv_nature"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:textStyle="italic"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:textColor="@android:color/white"
+            android:background="@color/black_overlay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            />
+
+        <TextView
+            android:id="@+id/tv_quote"
+            android:layout_width="match_parent"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:background="@color/black_overlay"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/tv_title"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tv_greetings"
+            android:textColor="@android:color/white"
+            android:background="@color/black_overlay"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:layout_above="@id/tv_quote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sample_greeting"
+            />
+    </RelativeLayout>
+
+
+</FrameLayout>
